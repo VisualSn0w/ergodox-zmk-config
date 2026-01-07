@@ -6,3 +6,5 @@
 include:
   - board: slicemk_ergodox_202108_blue_left
     shield: slicemk_ergodox_leftcentral
+
+  snippet: studio-rpc-usb-uart cmake-args: -DCONFIG_ZMK_STUDIO=y
