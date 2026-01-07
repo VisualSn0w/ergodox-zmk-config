@@ -17,7 +17,7 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp GRAVE      &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5     &kp PRINTSCREEN   &none           &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0    &kp K_APPLICATION
+				&kp GRAVE      &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5     &kp PRINTSCREEN   &studio_unlock           &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0    &kp K_APPLICATION
 				&kp TAB        &kp Q           &kp W        &kp E          &kp R          &kp T            &kp CAPSLOCK      &kp C_MUTE      &kp Y        &kp U          &kp I           &kp O         &kp P           &kp BACKSLASH
 				&kp ESCAPE     &kp A           &kp S        &kp D          &kp F          &kp G                                              &kp H        &kp J          &kp K           &kp L         &kp SEMICOLON   &kp BACKSPACE
 				&mo LAYER_SYMB &kp Z           &kp X        &kp C          &kp V          &kp B            &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp N        &kp M          &kp COMMA       &kp PERIOD    &kp SLASH       &mo LAYER_SYMB
