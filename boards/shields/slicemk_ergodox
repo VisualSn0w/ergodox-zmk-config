@@ -1,0 +1,5 @@
+I switched to it a few days ago. I ended up building new peripheral firmwares based on zmk 0.3, though if your only goal is zmk studio you probably just need to rebuild the dongle firmware based on latest slicemk firmware. Put these files in boards/shields/slicemk_ergodox in your ergodox-zmk-config, then add 
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+ to your build.yaml dongle include. Also make sure west.yml is pointing at the v20250120-min repo like I mentioned above. 
+-infinite discord
