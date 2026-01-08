@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: slicemk
+    - name: xudongzheng
       url-base: https://github.com/xudongzheng
   projects:
     - name: zmk
