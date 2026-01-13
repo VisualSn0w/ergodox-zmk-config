@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <boards/shields/slicemk_ergodox/slicemk_ergodox-layouts.dtsi>
-#include <boards/shields/slicemk_ergodox/slicemk_ergodox.dtsi>
+#include <slicemk_ergodox-layouts.dtsi>
+#include <slicemk_ergodox.dtsi>
 
 #define LAYER_MAIN 0
 #define LAYER_FN 1
