@@ -8,7 +8,10 @@
         transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot   rx    ry
-            // Row 0 - Number row
+            // Row 0 - Bootloader button (dongle only)
+            = <&key_physical_attrs 100 100    0    0       0     0     0>  // RC(0,0)
+
+            // Row 1 - Number row
             , <&key_physical_attrs 100 100    0  100       0     0     0>  // RC(1,0) GRAVE
             , <&key_physical_attrs 100 100  100  100       0     0     0>  // RC(1,1) 1
             , <&key_physical_attrs 100 100  200  100       0     0     0>  // RC(1,2) 2
