@@ -7,4 +7,5 @@ manifest:
       remote: xudongzheng
       revision: v20260424-min
       import: app/west.yml
-
+  self:
+    path: config
