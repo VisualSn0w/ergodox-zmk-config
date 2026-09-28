@@ -64,9 +64,9 @@
 			bindings = <
 				&bootloader
 				&none   &none     &none        &none          &none        &none &none                &none                &none     &none          &none           &none        &none        &none
-				&kp TAB &none     &none        &none          &none        &none &none                &none                &none     &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9 &none        &none
-				&none   &kp SLASH &kp ASTERISK &kp MINUS      &kp PLUS     &none                                           &none     &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6 &kp NUMBER_0 &kp BACKSPACE
-				&none   &none     &none        &none          &kp PERIOD   &none &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none     &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3 &none        &none
+				&kp TAB &mkp LCLK     &mmv MOVE_UP        &mkp RCLK          &msc SCRL_UP       &none &none                &none                &none     &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9 &none        &none
+				&none   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT      &msc SCRL_DOWN     &none                                           &none     &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6 &kp NUMBER_0 &kp BACKSPACE
+				&none   &none     &none        &none          &mkp MCLK   &none &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none     &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3 &none        &none
 				&none   &none     &none        &kp LEFT_ARROW &kp UP_ARROW                                                           &kp DOWN_ARROW &kp RIGHT_ARROW &none        &none        &to LAYER_MAIN
 				                                                           &none &none                &none                &none
 				                                              &none        &none &none                &none                &kp SPACE &none
@@ -75,17 +75,17 @@
 		};
 
 		layer_4 {
-			display-name = "mouse";
+			display-name = "nxt numbers";
 			bindings = <
 				&bootloader
-				&none &none &none &none &none &none &none &none &none          &none           &none          &none           &none &none
-				&none &none &none &none &none &none &none &none &msc SCRL_LEFT &msc SCRL_RIGHT &mmv MOVE_UP   &none           &none &none
-				&none &none &none &none &none &none             &msc SCRL_UP   &mmv MOVE_LEFT  &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none
-				&none &none &none &none &none &none &none &none &msc SCRL_DOWN &mkp LCLK       &mkp MCLK      &mkp RCLK       &none &none
-				&none &none &none &none &none                                  &none           &none          &none           &none &none
-				                              &none &none &none &none
-				                        &none &none &none &none &none          &none
-				                                    &none &none
+				&kp GRAVE      &kp NUMBER_5    &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9     &kp PRINTSCREEN   &none           &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0    &kp K_APPLICATION
+				&kp TAB        &kp Q           &kp W        &kp E          &kp R          &kp T            &kp CAPSLOCK      &kp C_MUTE      &kp Y        &kp U          &kp I           &kp O         &kp P           &kp BACKSLASH
+				&kp ESCAPE     &kp A           &kp S        &kp D          &kp F          &kp G                                              &kp H        &kp J          &kp K           &kp L         &kp SEMICOLON   &kp BACKSPACE
+				&mo LAYER_SYMB &kp Z           &kp X        &kp C          &kp V          &kp B            &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp N        &kp M          &kp COMMA       &kp PERIOD    &kp SLASH       &mo LAYER_SYMB
+				&none          &mo LAYER_MOUSE &kp LEFT_ALT &kp LEFT_ARROW &kp UP_ARROW                                                                   &kp DOWN_ARROW &kp RIGHT_ARROW &kp RIGHT_ALT &mo LAYER_MOUSE &to LAYER_NMPAD
+				                                                                          &kp DELETE       &kp HOME          &kp END         &kp INSERT
+				                                                           &kp LEFT_SHIFT &kp LEFT_CONTROL &kp PAGE_UP       &kp PAGE_DOWN   &kp SPACE    &kp LEFT_GUI
+				                                                                                           &kp RETURN        &mo LAYER_FN
 			>;
 		};
 	};
